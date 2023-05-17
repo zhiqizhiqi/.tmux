@@ -23,10 +23,11 @@ You can install Oh my tmux! at any of the following locations:
 
 Installing in `~`:
 ```
-$ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/zhiqizhiqi/.tmux/master/install.sh)
+# $ cd
+# $ git clone https://github.com/gpakosz/.tmux.git
+# $ ln -s -f .tmux/.tmux.conf
+# $ cp .tmux/.tmux.conf.local .
 ```
 
 Installing in `$XDG_CONFIG_HOME/tmux`:
